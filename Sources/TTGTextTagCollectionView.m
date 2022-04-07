@@ -47,6 +47,7 @@
     _label = [[TTGTextTagGradientLabel alloc] initWithFrame:self.bounds];
     _label.textAlignment = NSTextAlignmentCenter;
     _label.userInteractionEnabled = YES;
+    _label.numberOfLines = 0;
     [self addSubview:_label];
 }
 
